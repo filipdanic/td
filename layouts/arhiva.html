@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%= render '/_header.html', :title => 'Default title'%>
+	<%= meta_tag :keywords %>
+</head>
+<body>
+<%= render '/_menu.html' %>
+
+
+<%
+	keys = Array.new
+	$data.each do |id, td|
+		keys << id
+	end
+	keys.sort
+%>
+
+	<header>
+	<h1><%= val(:title) || title %></h1>
+	</header>
+
+	<div id="outpage">
+		<div id="page">
+		<% keys.each do |id|
+			td = $data[id]
+		%>
+			<div class="card">
+			<%= td["title"] %>
+			</div>
+		<% end %>
+		</div>
+	</div>
+
+	<%= render '/_footer.html'%>
+</body>
+</html>

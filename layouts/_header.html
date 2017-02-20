@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<title><%= val(:title) || title %></title>
+<link href="/favicon.png" rel="icon" type="image/png">
+<link rel="stylesheet" type="text/css" href="/css/td.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<% for p in @item.fetch(:head, []) %>
+	<%= render "/_#{p}.*" %>
+<% end %>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+function toggle() {
+	$('#follow').toggle();
+}
+</script>

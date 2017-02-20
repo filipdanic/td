@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%= render '/_header.html', :title => "Index title" %>
+	<%= meta_tag :keywords %>
+<script>
+
+</script>
+</head>
+<body>
+<%= render '/_menu.html' %>
+
+<header>
+<h1>Tehnološki Doručak #10</h1>
+<h2>8. Mart 2017, 8:00 | Parobrod, BGD</h2>
+<h3>Prijavi dolazak</h3>
+</header>
+
+<div class="items" style="z-index: 2;">
+  <%= render '/_item.html', :id => '10-1' %>
+  <%= render '/_item.html', :id => '10-2' %>
+  <%= render '/_item.html', :id => '10-3' %>
+  <%= render '/_item.html', :id => '10-4' %>
+</div>
+
+<!--%= yield %-->
+
+<%= render '/_footer.html' %>
+
+</body>
+</html>

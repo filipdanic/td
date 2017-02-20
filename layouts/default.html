@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%= render '/_header.html', :title => 'Default title'%>
+	<%= meta_tag :keywords %>
+</head>
+<body>
+<%= render '/_menu.html' %>
+
+	<header>
+	<h1><%= val(:title) || title %></h1>
+	</header>
+
+
+	<div id="outpage">
+		<div id="submenu">
+		<ul>
+		<%	@item["menu"].fetch("items").each do |it| %>
+			<li><a href="<%= it[1] %>"><%= h(it[0]) %></a></li>
+		<% end %>
+		</ul>
+		</div>
+		<div id="page">
+		<%= yield %>
+		</div>
+	</div>
+
+	<%= render '/_footer.html'%>
+</body>
+</html>
