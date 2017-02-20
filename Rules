@@ -1,0 +1,165 @@
+#!/usr/bin/env ruby
+
+require 'compass'
+Compass.add_project_configuration 'config.rb'
+
+preprocess do
+
+  # Assume all items inside /blog are blog articles unless otherwise specified
+  @items.select { |item| item.identifier.to_s.start_with?("/blog/") }.each do |item|
+    item[:kind] ||= 'article'
+  end
+
+  # TODO
+  # fix missing filename attribute
+  @items.each do |item|
+    if (item[:filename] == nil) then
+      item[:filename] = "content" + item.identifier
+    end
+  end
+
+  #TODO
+  @items.each do |item|
+    collect_yaml_files(item)
+  end
+
+  @items.each do |item|
+    bind_yaml_metadata(item)
+    preprocess_item(item)
+  end
+
+  sort_items_collection
+
+  # build tag pages
+  all_tags(items).each do |tag, count|
+    @items.create(
+      "<%= render '/tag.erb', :tag => '#{tag}' %>",
+      {:title => "Articles tagged ‘#{tag}’", :kind => 'tag-page', :tag => tag, :count => count},
+      "/tags/#{tag}.erb",
+      :binary => false
+    )
+  end
+
+  @items.each do |item|
+    process_jsons(item)
+  end
+
+end
+
+
+## just blind-copy these
+
+passthrough '/humans.txt'
+passthrough '/robots.txt'
+passthrough '/BingSiteAuth'
+passthrough '/google*'
+passthrough '/y_key_*'
+
+
+## STATIC content
+
+compile '/static/**/*' do ; end
+route '/static/**/*' do
+  # /static/foo.html → /foo.html
+  item.identifier.to_s.sub(/\A\/static/, '')
+end
+
+
+## CSS
+
+compile '/css/**/*.scss' do
+  filter :sass, Compass.sass_engine_options.merge(
+    :syntax => :scss,
+    :style => :compressed
+  )
+end
+route '/css/**/*.scss' do
+  @item.identifier.without_ext + ".css"
+end
+
+compile '/css/**/*.css' do
+  filter :minify
+end
+
+route '/css/**/*.css' do
+  item.identifier.to_s
+end
+
+
+## htaccess
+
+compile '/htaccess.txt' do
+  filter :erb
+end
+route '/htaccess.txt' do
+  '/.htaccess'
+end
+
+
+# Sitemap
+
+compile '/sitemap.erb' do
+  filter :erb
+end
+route '/sitemap.erb' do
+  '/sitemap.xml'
+end
+
+# ERB
+
+compile '/**/*.erb' do
+  filter :erb
+  layout '/default.*'
+  #filter :html5small if ENV['NANOC_ENV'] == 'production'
+end
+
+## MD
+
+compile '/**/*.md' do
+  filter :erb
+  filter :kramdown, {
+    :smart_quotes => "apos,apos,quot,quot",
+    :coderay_line_numbers => nil,
+    :coderay_tab_width => 4,
+    :coderay_wrap => :div,
+    :coderay_css => :class
+  }
+
+  # read layout from items
+  if item[:layout] != nil
+    layout item[:layout]
+  else
+    layout '/default.html'
+  end
+
+  filter :md_links
+  filter :relativize_paths, :type => :html
+  filter :htmlcompressor
+end
+
+
+# ignore, don't route
+
+route '/**/*.yaml' do
+end
+
+# defaults
+
+compile '/**/*' do
+end
+
+route '/**/*.{erb,html,md}' do
+  if item.identifier =~ '/index.*'
+    '/index.html'
+  else
+    item.identifier.without_ext + '.html'
+  end
+end
+
+route '/**/*' do
+  item.identifier.to_s
+end
+
+# Filter all layouts through erb
+
+layout '/**/*', :erb
