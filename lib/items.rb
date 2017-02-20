@@ -17,7 +17,7 @@ def preprocess_item(item)
 		if item.key?(:created_at)
 			item[:date] = attribute_to_time(item[:created_at])
 		else
-			item[:date] = File.birthtime(item[:filename])
+			item[:date] = File.ctime(item[:filename])
 		end
     end
 
