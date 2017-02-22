@@ -9,11 +9,12 @@
 </head>
 <body>
 <%= render '/_menu.html' %>
-
+<% no = $data["td"]["active"] %>
+<% td = $data[no.to_s] %>
 <header>
 <h1>Tehnološki Doručak #10</h1>
-<h2>8. Mart 2017, 8:00 | Parobrod, BGD</h2>
-<h3>Prijavi dolazak</h3>
+<h2><%= td["date"] %> | 8:00 | Parobrod, BGD</h2>
+<h3><a href="<%= td['eventUrl'] %>" target="_blank">Prijavi dolazak</a></h3>
 </header>
 
 <div class="items" style="z-index: 2;">
@@ -22,8 +23,6 @@
   <%= render '/_item.html', :id => '10-3' %>
   <%= render '/_item.html', :id => '10-4' %>
 </div>
-
-<!--%= yield %-->
 
 <%= render '/_footer.html' %>
 

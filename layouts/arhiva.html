@@ -11,7 +11,9 @@
 <%
 	keys = Array.new
 	$data.each do |id, td|
-		keys << id
+		if id.include? "-"
+			keys << id
+		end
 	end
 	keys.sort
 %>

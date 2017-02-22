@@ -6,6 +6,9 @@ $primary-color: #333;
 $focus-color: #EC3522;
 $focus-color-alt: #eee;
 
+$break1: 1600px;
+$break2: 1200px;
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -31,10 +34,10 @@ body {
 
 html {
   font-size: 16px;
-  @media (min-width: 800px) {
+  @media (min-width: $break2) {
     font-size: 18px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: $break1) {
     font-size: 20px;
   }
 }
@@ -55,6 +58,11 @@ h3 { font-size: 1.75em; } 	// 28 ÷ 16 = 1.75
 		a {
 			font-size: 1.1em;
 		}
+		@media (max-width: $break1) {
+    		float: none;
+    		text-align: left;
+  		}
+
 	}
 }
 header {
@@ -81,41 +89,55 @@ header {
 		top: -26px;
 		margin: auto;
 		padding: 10px;
+		a {
+			display: block;
+			color: $focus-color-alt;
+			&:hover {
+				color: $primary-color;
+			}
+		}
 	}
 }
 
+
 .items {
-	display: flex;
-	flex-wrap: wrap;
+	overflow: auto;
+  	zoom: 1;
+  	.column {
+		width: 25%;
+		float: left;
+		overflow: hidden;
+		padding: 10px 10px;
+
+		@media (max-width: $break2) {
+    		width: 100%;
+  		}
+
+  	}
 	.item {
-		flex: 1 0 25%;
-		box-sizing: border-box;
 		.speaker {
 			z-index: -1;
 			position: relative;
 			text-align: right;
 		}
 		article {
-			position: relative;
-			top: -60px;
-			background-color: #fff;
-			background-image: linear-gradient(-45deg, #eeeeee 25%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,#eeeeee 50%,#eeeeee 75%,rgba(0,0,0,0) 75%,rgba(0,0,0,0));
-			background-size: 4px 4px;
 			border: 2px dashed #666;
 			box-shadow: 0 0 0 4px #fff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
-			padding: 20px;
-			margin-left: 20px;
-			margin-right: 20px;
+			padding: 30px 20px;
 			text-align: center;
 			font-family: 'Sabon-RomanOsF';
 			cursor: pointer;
 			transition: 0.5s;
 			-webkit-transition:0.5s;
 
+			p {
+				font-size: 1.4em;
+			}
+
 			&:hover {
 				border: 2px solid #666;
 				background-image: none;
-				background-color:#F4ECE1;
+				background-color:#fff;
 				transition: 0s;
   				-webkit-transition: 0s;
   			}
@@ -225,4 +247,30 @@ header {
 	width: 25%;
 	margin: 10px;
 	background-color: #fff;
+}
+
+footer {
+	box-shadow: 0 0 0 4px #fff, 2px 1px 6px 4px rgba(10,10,0,0.5);
+	background-color: #fff;
+	border: 2px;
+	padding: 10px;
+	text-align: center;
+	a {
+		color: $focus-color;
+		&:hover {
+			color: $primary-color;
+		}
+	}
+	position:fixed;
+	bottom:0px;
+}
+
+.pattern {
+	background:
+	radial-gradient(#ddd 15%, transparent 16%) 0 0,
+	radial-gradient(#ddd 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#f0f0f0;
+	background-size:16px 16px;
 }

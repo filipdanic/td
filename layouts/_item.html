@@ -1,9 +1,13 @@
   <div class="item">
-    <div class="speaker"><img src="/gfx/ppl/<%= id %>.png"></div>
-  	<article class="box">
+  	<div class="column">
+    <!--div class="speaker"><img src="/gfx/ppl/<%= id %>.png"></div-->
+  	<article class="box pattern">
 	  	<h1><%= h($data[id]["title"]) %></h1>
 	  	<hr>
 	  	<h2><%= h($data[id]["author"]) %></h2>
+	  	<p>
 	  	<%= h($data[id]["subtitle"]) %>
+	  	</p>
 	</article>
+	</div>
 </div>
