@@ -1,0 +1,768 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"color",
+				"color-text"
+			],
+			[
+				"htmls",
+				"htmlstapler"
+			],
+			[
+				"gs",
+				"gsub"
+			],
+			[
+				"pass",
+				"passthrough"
+			],
+			[
+				"articl",
+				"article_items"
+			],
+			[
+				"bak",
+				"background-image"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"liferay",
+				"liferay173"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"c",
+				"small-caps"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Com",
+				"componentType"
+			],
+			[
+				"componen",
+				"componentType"
+			],
+			[
+				"let",
+				"letter-spacing"
+			],
+			[
+				"sli",
+				"slideshow"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"cover",
+				"coverage-report"
+			],
+			[
+				"JF",
+				"JFLEX_HOME"
+			],
+			[
+				"depen",
+				"dependency"
+			],
+			[
+				"MY",
+				"MYSQL"
+			],
+			[
+				"M",
+				"MYSQL"
+			],
+			[
+				"MYS",
+				"MYSQL_HOME"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"Pos",
+				"PostgreSQL"
+			],
+			[
+				"Postgr",
+				"postgres"
+			],
+			[
+				"Po",
+				"PostgreSQL"
+			],
+			[
+				"postgr",
+				"PostgreSQL"
+			],
+			[
+				"sync",
+				"sync-filter"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 305.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"to space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"gith",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"conve",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Javascript Beautify"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"to spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"to sp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"iden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ident",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/igor/prj/heapspace/td"
+	],
+	"file_history":
+	[
+		"/Users/igor/prj/heapspace/td/content/json/1-1.json",
+		"/Users/igor/prj/heapspace/td/content/json/1.json",
+		"/Users/igor/prj/heapspace/td/content/json/10-1.json",
+		"/Users/igor/prj/heapspace/td/content/json/10.json",
+		"/Users/igor/bin/gh.sh",
+		"/Users/igor/prj/wedeploy/images2/swarm/README.md",
+		"/Users/igor/prj/oblac/jodd-site/layouts/jodd.html",
+		"/Users/igor/prj/oblac/jodd-site/layouts/default.html",
+		"/Users/igor/prj/oblac/jodd-site/content/index.md",
+		"/Users/igor/prj/oblac/jodd-site/layouts/_head.html",
+		"/Users/igor/prj/oblac/jodd-site/content/css/style.scss",
+		"/Users/igor/prj/oblac/jodd-site/content/css/fonts.css",
+		"/Users/igor/prj/oblac/jodd-site/layouts/_header.html",
+		"/Users/igor/prj/oblac/jodd-site/layouts/_social.html",
+		"/Users/igor/prj/oblac/jodd-site/README.md",
+		"/Users/igor/prj/oblac/joddframework.org/index.html",
+		"/Users/igor/prj/oblac/jodd-site/lib/search.rb",
+		"/Users/igor/prj/oblac/jodd-site/Rules",
+		"/Users/igor/prj/oblac/jodd-site/lib/jodd_docs.rb",
+		"/Users/igor/prj/oblac/jodd-site/lib/words_filter.rb",
+		"/Users/igor/prj/oblac/jodd-site/commands/search_data.rb",
+		"/Users/igor/prj/oblac/jodd-site/static/sync-filter.txt",
+		"/Users/igor/prj/oblac/jodd-site/output/js/data.json",
+		"/Users/igor/prj/oblac/jodd-site/commands/search_data.ruby",
+		"/Users/igor/prj/oblac/jodd-site/Gemfile",
+		"/Users/igor/prj/oblac/jodd-site/lib/helpers.rb",
+		"/Users/igor/prj/oblac/jodd-site/jodd-site.sublime-project",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/css/style.scss",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/download/index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/license.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/class-loading-in-jodd.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/2+actions.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/_social.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/README.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/toc_filter.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/todo.txt",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/sitemap.haml",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/Gemfile",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/helpers.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/Rules",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/.gitignore",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/release.zsh",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/static/.sync-filter.txt",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/static/.sync-exclude.txt",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/sitemap",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/default.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/replace_filter.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/jodd_macros.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/_docs.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/2+container.md",
+		"/Users/igor/Dropbox/Private/work/doc/websphere.txt",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/jodd_docs.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/default.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/macros.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/javadoc_filter.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/jerry/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/json/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/jtx/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/lagarto/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/paramo/index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/proxetta/1+index.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/output/doc/db/+index.html",
+		"/Users/igor/Dropbox/Private/work/doc/vpn.txt",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/beta.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/love.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/release.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/printf.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/_head.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/jodd.rb",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/jodd.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/14+miscellaneous.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/8+injection.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/5+results-more.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/3+actions-more.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/13+integration.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/17+prepare-objects-before-update.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/12+routing.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/output/doc/example/tx-over-actions.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/10+tx-over-actions.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/output/doc/madvoc/actions-more.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/output/doc/madvoc/actions.html",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/add-classpath-in-runtime.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/android.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/10+setup.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/11+manual+registration.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/6+dboommanager.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/6+interceptors.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/proxetta/6+invocation-replacement.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/6+petite-provider.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/6+store-with-db.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/7+filters.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/7+setup.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/7+sqlgenerator.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/7+transactions-with-proxetta.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/8+parameters.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/8+template-sql.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/8+working-example.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/9+relations-and-hints.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/9+rest.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/10+configuration.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/proxetta/5+wrapper.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/json/3+json-parser.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/jtx/3+jtx-example.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/3+more_registration.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/htmlstapler/3+setup.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/jtx/4+db-and-annotation.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/4+dboomquery.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/htmlstapler/4+ignoring-resources.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/json/4+json-misc.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/lagarto/4+lagarto-properties.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/4+more_wiring.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/proxetta/4+proxy.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/4+results.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/4+view-with-madvoc.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/5+beans-set-injection.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/htmlstapler/5+enabling-gzip.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/5+mapping.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/5+serve-with-petite.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/lagarto/5+strip-html.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/2+dbquery.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/2+fast-jodd-dev-with-joy.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/htmlstapler/2+how-htmlstapler-works.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/jerry/2+jerry-examples.md",
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/json/2+json-serializer.md"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"<project>",
+			"<file>",
+			"<project>",
+			"/Users/igor/prj/oblac/site/doc/example/",
+			"/Users/igor/prj/oblac/site/doc/db/",
+			"/Users/igor/prj/oblac/site/doc/madvoc/",
+			"/Users/igor/prj/oblac/site/doc/madvoc",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"proxy",
+			"font",
+			"round",
+			"badge",
+			"compile '/htaccess' do ; end\nroute '/htaccess' do\n  '/.htaccess'\nend\n",
+			"<js>",
+			"@@",
+			"<js>",
+			"{TOC}",
+			"\t# fix error color in syntax highlighter\n\tcontent = content.gsub(\n\t\t%[<span class=\"error\">$</span>],\n\t\t%[<span style=\"color:#F00;background-color:#FEE\">$</span>])\n",
+			"\n    ",
+			"{TOC}",
+			"<js>",
+			"javadoc(",
+			"if",
+			"filter",
+			"make-toc",
+			"maketoc",
+			"to_s",
+			">\"",
+			"Time.now",
+			"@@",
+			"slickna",
+			"jodd",
+			"\tif (path.start_with?('content/'))\n\t\tpath = path[7..-1]\n\tend\n",
+			"[\\#jodd-",
+			"#jodd-",
+			"## [",
+			"\\\\]**",
+			"]**",
+			"**[",
+			"identifier",
+			"passthrough",
+			"filter",
+			"passthrough",
+			"route '/40*' do\n  '/' + File.basename(item.identifier) + '.shtml'\nend\n",
+			"compile '/40*' do\n  filter :kramdown\n  layout 'error'\nend\n",
+			"*'\n",
+			"_footer",
+			"isotope",
+			"extend_7",
+			"isotope",
+			"180",
+			"page-template-template-homepage-php",
+			"slicknav",
+			"menu-item-10",
+			"$font_2",
+			"$font_1",
+			"$font_0",
+			".5",
+			"yout_structure",
+			"$black_7",
+			"$black_2",
+			"$black_2.5",
+			"$black_2",
+			"black",
+			"puts",
+			"kind",
+			"slickna",
+			"jsonws.",
+			"json",
+			"jsonws",
+			">>>",
+			"org",
+			"exec",
+			"open",
+			"dashb",
+			"rash",
+			"warn",
+			"NSAutomaticWindowAnimationsEnabled",
+			"load",
+			"avo ",
+			"È",
+			"ð",
+			"è",
+			"æ",
+			",123$5a",
+			",1a2345f",
+			",12345",
+			"jhmjar",
+			"juni",
+			"\n![](",
+			".osx",
+			"Day",
+			"16",
+			"\t'nod')\t\t\tFOLDER=\"_etc\"\n\t\t\t\t\t;;\n",
+			"\n\t",
+			"spaci",
+			"\t\t<p>\n\t\t\twe make beautiful web software\n\t\t</p>\n",
+			"smartgit",
+			"NEW\n: **[http]** Added method to force multipart requests.\n",
+			"NEW\n: **[proxetta]** Added `targetMethodAnnotation()` and `targetClassAnnotation()`\nmacro methods for *Proxetta*.\n",
+			"--",
+			"version",
+			"\n\t",
+			"madvoc",
+			"jodd",
+			"idea",
+			": ",
+			"include",
+			"app",
+			"foo",
+			"main",
+			"httpRequestHandler",
+			"sending em",
+			"Imap",
+			"adr2",
+			"        .",
+			"\n+",
+			"0",
+			"macros",
+			"$color-orange1",
+			"ecdcc4",
+			"button",
+			"circle",
+			"');\n",
+			"result t",
+			"result type",
+			"li",
+			"ul",
+			"ex",
+			"ex1",
+			"echo",
+			"\t- ",
+			"CHANGED\n: *Props* macros are now resolved dynamically, on fetch.\n",
+			"\t\t\t\t<div class=\"badge br1\">\n\t\t\t\t\t<a href=\"/doc/json/\" class=\"circle bg-col3\">S</a>\n\t\t\t\t\t<div class=\"desc\">\n\t\t\t\t\t\t<span>Json</span> - super tool for parsing JSON to objects and serializing objects back to JSON.\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n",
+			"\t\t\t\t<div class=\"badge br1\">\n\t\t\t\t\t<a href=\"/doc/decora/\" class=\"hexagon\">C</a>\n\t\t\t\t\t<div class=\"desc\">\n\t\t\t\t\t\t<span>Decora</span> - powerful decoration framework for web pages based on templates.\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n",
+			"('"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\[#jodd-",
+			"\\#jodd-",
+			"## \\[",
+			"\\]**",
+			"**\\[",
+			"Č",
+			"đ",
+			"č",
+			"ć",
+			",12345asdfg",
+			",123$5a",
+			",1a2345f",
+			"+ ",
+			"~~~~~",
+			"~~~~~ java",
+			"~~~~~",
+			"~~~~~ java",
+			"\"",
+			"257300"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "ts.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jodd",
+				"layouts/jodd.html"
+			],
+			[
+				"lice",
+				"content/license.md"
+			],
+			[
+				"actions",
+				"content/doc/madvoc/3+actions-more.md"
+			],
+			[
+				"taglib",
+				"content/doc/taglibrary.md"
+			],
+			[
+				"nano",
+				"nanoc.yaml"
+			],
+			[
+				"head",
+				"layouts/_head.html"
+			],
+			[
+				"footer.",
+				"layouts/_footer.html"
+			],
+			[
+				"reles",
+				"content/release.md"
+			],
+			[
+				"release",
+				"content/partials/release.md"
+			],
+			[
+				"relesa",
+				"content/release.md"
+			],
+			[
+				"bet",
+				"beta.md"
+			],
+			[
+				"histor",
+				"history.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/igor/prj/oblac/site/jodd-site.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

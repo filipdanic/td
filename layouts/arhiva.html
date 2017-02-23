@@ -7,7 +7,6 @@
 <body>
 <%= render '/_menu.html' %>
 
-
 <%
 	keys = Array.new
 	$data.each do |id, td|
@@ -28,7 +27,10 @@
 			td = $data[id]
 		%>
 			<div class="card">
-			<%= td["title"] %>
+			<a href="#">
+				<div class="h1"><span class="title"><%= h(td["title"]) %></span> <span class="author">/<%= h(td["author"]) %></span></div>
+				<div class="h2"><%= h(td["subtitle"]) %></div>
+			</a>
 			</div>
 		<% end %>
 		</div>
