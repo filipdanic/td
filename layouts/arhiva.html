@@ -11,10 +11,14 @@
 	keys = Array.new
 	$data.each do |id, td|
 		if id.include? "-"
+			if id.length == 3
+				id = "0" + id
+			end
 			keys << id
 		end
 	end
-	keys.sort
+	keys = keys.sort.reverse
+	print keys
 %>
 
 	<header>
@@ -24,10 +28,14 @@
 	<div id="outpage">
 		<div id="page">
 		<% keys.each do |id|
+			while id.start_with?('0')
+				id = id[1..-1]
+			end
 			td = $data[id]
 		%>
 			<div class="card">
 			<a href="#">
+				<div class="circle"><%= td["td"] %></div>
 				<div class="h1"><span class="title"><%= h(td["title"]) %></span> <span class="author">/<%= h(td["author"]) %></span></div>
 				<div class="h2"><%= h(td["subtitle"]) %></div>
 			</a>

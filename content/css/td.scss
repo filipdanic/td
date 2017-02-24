@@ -240,27 +240,46 @@ header {
 }
 
 .card {
-	border: 1px solid $primary-color;
+	border: 1px dashed #666;
+	box-shadow: 0 0 0 4px #fff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+
 	display: block;
-	padding: 10px;
+	padding: 10px 20px;
 	width: 100%;
-	margin: 10px;
-	background-color: #fff;
+	margin: 20px 0;
+	background-color: #fafafa;
 	a {
 		display: block;
 	}
+	&:hover {
+		background-color: #fff;
+		border: 1px solid #666;
+	}
+	.circle {
+		float: right;
+		font-size: 0.8em;
+		position: relative;
+		top: -5px;
+		left: 16px;
+    	color: #aaa;
+    	text-align: center;
+	}
 	.h1 {
 		font-family: 'Sabon-RomanOsF';
+		margin-bottom: 10px;
 		span.title {
 			font-size: 1.2em;
 			font-weight: bold;
+			color: $primary-color;
 		}
 		span.author {
+			padding-left: 20px;
 			font-size: 0.8em;
+			color: #555;
 		}
 	}
 	.h2 {
-		font-size: 0.8em;
+		font-size: 0.75em;
 	}
 }
 
