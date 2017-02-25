@@ -1,8 +1,8 @@
 {
 	"title" : "JustGage",
 	"url" : "http://justgage.com/",
-	"subtitle" : "Korisna JS biblioteka za gauges.",
-	"abstract" : "",
+	"subtitle" : "JavaScript biblioteka za generisanje i animaciju merila (gauge).",
+	"abstract" : "Zasnovana na Raphaël biblioteci za crtanje vektorima, potpuno je nezavisna od rezolucije ekrana.",
 	"author" : "Bojan Đuričić",
 	"td" : 1
 }

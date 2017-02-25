@@ -1,8 +1,8 @@
 {
 	"title" : "jFreeSteel",
 	"url" : "http://jfreesteel.devbase.net/",
-	"subtitle" : "",
-	"abstract" : "",
+	"subtitle" : "Čitač elektronske karte za nas ostale.",
+	"abstract" : "Funkcionalan program za GNU/Linux, MacOS, Windows... kao i Java biblioteka i aplet koji se može koristiti slobodno za sopstvene potrebe.",
 	"author" : "Goran Rakić",
 	"td" : 3
 }
