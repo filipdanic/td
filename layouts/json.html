@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%= render '/_header.html', :title => 'Default title'%>
+	<%= meta_tag :keywords %>
+	<link rel="stylesheet" type="text/css" href="/css/tdjson.css">
+</head>
+<body>
+<%= render '/_menu.html' %>
+<% td = $data[val(:id)] %>
+	<header>
+	<h1><%= val(:title) || title %></h1>
+	</header>
+
+	<div id="outpage">
+		<div id="page">
+
+		<div class="tdlink">
+		<a href="<%= td['url'] %>" target="_blank"><%= td['url'] %></a>
+		</div>
+
+		<div style="padding: 10px;">&nbsp;</div>
+
+		<span class="shout"><%= h(td['subtitle']) %></span>
+		<%= h(td['abstract']) %>
+		</div>
+	</div>
+
+	<%= render '/_footer.html'%>
+</body>
+</html>

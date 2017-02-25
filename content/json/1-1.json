@@ -1,8 +1,8 @@
 {
 	"title" : "JustGage",
 	"url" : "http://justgage.com/",
-	"subtitle" : "Korisna JS biblioteka za gauges",
-	"abstract" : null,
+	"subtitle" : "Korisna JS biblioteka za gauges.",
+	"abstract" : "",
 	"author" : "Bojan Đuričić",
 	"td" : 1
 }

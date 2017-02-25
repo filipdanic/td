@@ -18,7 +18,6 @@
 		end
 	end
 	keys = keys.sort.reverse
-	print keys
 %>
 
 	<header>
@@ -34,7 +33,7 @@
 			td = $data[id]
 		%>
 			<div class="card">
-			<a href="#">
+			<a href="/<%= td['id'] %>/">
 				<div class="circle"><%= td["td"] %></div>
 				<div class="h1"><span class="title"><%= h(td["title"]) %></span> <span class="author">/<%= h(td["author"]) %></span></div>
 				<div class="h2"><%= h(td["subtitle"]) %></div>

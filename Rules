@@ -40,8 +40,22 @@ preprocess do
     )
   end
 
+  # json
+
   @items.each do |item|
     process_jsons(item)
+  end
+
+  # build json pages
+  $data.each do |id, td|
+    if id.include? "-"
+      @items.create(
+        "no content",
+        {:title => "#{td["title"]}", :layout => "/json.html", :id => "#{id}"},
+        "/#{id}/index.md",
+        :binary => false
+      )
+    end
   end
 
 end

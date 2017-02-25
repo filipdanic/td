@@ -16,9 +16,9 @@ $break2: 1200px;
 }
 a {
 	text-decoration: none;
-	color: $primary-color;
+	color: $focus-color;
 	&:hover {
-		color: $focus-color;
+		color: $primary-color;
 	}
 }
 html, body  {
@@ -57,6 +57,10 @@ h3 { font-size: 1.75em; } 	// 28 ÷ 16 = 1.75
 		display: block;
 		a {
 			font-size: 1.1em;
+			color: $primary-color;
+			&:hover {
+				color: $focus-color;
+			}
 		}
 		@media (max-width: $break1) {
     		float: none;
@@ -120,21 +124,22 @@ header {
 			position: relative;
 			text-align: right;
 		}
-		article {
+		article a {
+			display: block;
 			border: 2px dashed #666;
 			box-shadow: 0 0 0 4px #fff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 			padding: 30px 20px;
 			text-align: center;
 			font-family: 'Sabon-RomanOsF';
-			cursor: pointer;
 			transition: 0.5s;
 			-webkit-transition:0.5s;
 
 			p {
 				font-size: 1.4em;
 			}
-
+			color: $primary-color;
 			&:hover {
+				color: $primary-color;
 				border: 2px solid #666;
 				background-image: none;
 				background-color:#fff;
@@ -249,6 +254,7 @@ header {
 	margin: 20px 0;
 	background-color: #fafafa;
 	a {
+		color: $primary-color;
 		display: block;
 	}
 	&:hover {
@@ -297,6 +303,9 @@ footer {
 	}
 	position:fixed;
 	bottom:0px;
+	width: 440px;
+	left: 50%;
+    margin-left: -220px;
 }
 
 .pattern {
@@ -307,4 +316,8 @@ footer {
 	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 	background-color:#f0f0f0;
 	background-size:16px 16px;
+}
+
+.shout {
+	font-size: 1.2em;
 }
