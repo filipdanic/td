@@ -6,6 +6,9 @@ $primary-color: #333;
 $focus-color: #EC3522;
 $focus-color-alt: #eee;
 
+$backy-color: #ece3d4;
+$dots-color: #ece3d4;
+
 $break1: 1600px;
 $break2: 1200px;
 
@@ -29,7 +32,33 @@ html, body  {
 body {
   font: 100% $font-stack;
   color: $primary-color;
-  background: url(/gfx/background.png);
+}
+
+.dots {
+	background-image: -moz-linear-gradient(45deg, $dots-color 25%, transparent 25%),
+		-moz-linear-gradient(-45deg, $dots-color 25%, transparent 25%),
+		-moz-linear-gradient(45deg, transparent 75%, $dots-color 75%),
+		-moz-linear-gradient(-45deg, transparent 75%, $dots-color 75%);
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, $dots-color), color-stop(.25, transparent)),
+		-webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, $dots-color), color-stop(.25, transparent)),
+		-webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, $dots-color)),
+		-webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, $dots-color));
+	background-image: -webkit-linear-gradient(45deg, $dots-color 25%, transparent 25%),
+		-webkit-linear-gradient(-45deg, $dots-color 25%, transparent 25%),
+		-webkit-linear-gradient(45deg, transparent 75%, $dots-color 75%),
+		-webkit-linear-gradient(-45deg, transparent 75%, $dots-color 75%);
+	background-image: -o-linear-gradient(45deg, $dots-color 25%, transparent 25%),
+		-o-linear-gradient(-45deg, $dots-color 25%, transparent 25%),
+		-o-linear-gradient(45deg, transparent 75%, $dots-color 75%),
+		-o-linear-gradient(-45deg, transparent 75%, $dots-color 75%);
+	background-image: linear-gradient(45deg, $dots-color 25%, transparent 25%),
+	linear-gradient(-45deg, $dots-color 25%, transparent 25%),
+	linear-gradient(45deg, transparent 75%, $dots-color 75%),
+	linear-gradient(-45deg, transparent 75%, $dots-color 75%);
+    -moz-background-size: 2px 2px;
+    background-size: 2px 2px;
+    -webkit-background-size: 2px 2.1px; /* override value for webkit */
+    background-position: 0 0, 1px 0, 1px -1px, 0px 1px;
 }
 
 html {
@@ -78,7 +107,7 @@ header {
 		padding: 20px 0 16px 0;
 	}
 	h2 {
-		background-color: #f4ece1;
+		background-color: $backy-color;
 		width: 60%;
 		position: relative;
 		top: -16px;
@@ -125,6 +154,7 @@ header {
 			text-align: right;
 		}
 		article a {
+			background-color: $backy-color;
 			display: block;
 			border: 2px dashed #666;
 			box-shadow: 0 0 0 4px #fff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
@@ -198,7 +228,7 @@ header {
 }
 
 #outpage {
-	background-color: #eee;
+	background-color: #ece3d4;
 	font-size: 1.4em;
 
 	#submenu {

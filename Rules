@@ -43,6 +43,8 @@ preprocess do
 
   arhivaItem = @items['/arhiva/index.md']
   arhivaMTime = File.mtime(arhivaItem[:filename])
+  indexItem = @items['/index.md']
+  indexMTime = File.mtime(indexItem[:filename])
 
   $data.each do |id, td|
     if id.include? "-"
@@ -56,6 +58,9 @@ preprocess do
       # dependency management
       if File.mtime(td[":filename"]) > arhivaMTime
         FileUtils.touch(arhivaItem[:filename])
+      end
+      if File.mtime(td[":filename"]) > indexMTime
+        FileUtils.touch(indexItem[:filename])
       end
 
     end
