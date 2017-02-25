@@ -12,4 +12,5 @@ Zajedno smo vam poslužili doručak uz tehnologiju. Prijatno!
 ![](/gfx/partneri/domace-kiflice.jpg)
 ![](/gfx/partneri/nescafe.jpg)
 ![](/gfx/partneri/parobrod.png)
+![](https://www.netlify.com/img/global/badges/netlify-light.svg)
 {: .partneri}
