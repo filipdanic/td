@@ -193,6 +193,8 @@ header {
 
 	outline: 9999px solid rgba(0,0,0,0.5);
 	z-index: 10000;
+
+	text-align: center;
 }
 
 #outpage {
@@ -319,5 +321,16 @@ footer {
 }
 
 .shout {
-	font-size: 1.2em;
+	font-size: 1.2em !important;
+}
+
+a.button {
+	display: block;
+	background-color: $focus-color;
+	color: #fff;
+	padding: 20px;
+	&:hover {
+		color: $primary-color;
+	}
+	text-align: center;
 }
