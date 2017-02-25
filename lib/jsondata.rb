@@ -18,6 +18,7 @@ def process_jsons(item)
 	key = File.basename(item[:filename], ".json")
 
 	data_hash["id"] = key
+	data_hash[":filename"] = item[:filename]
 	$data[key] = data_hash
 
 end

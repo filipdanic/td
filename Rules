@@ -5,18 +5,7 @@ Compass.add_project_configuration 'config.rb'
 
 preprocess do
 
-  # Assume all items inside /blog are blog articles unless otherwise specified
-  @items.select { |item| item.identifier.to_s.start_with?("/blog/") }.each do |item|
-    item[:kind] ||= 'article'
-  end
-
-  # TODO
-  # fix missing filename attribute
-  @items.each do |item|
-    if (item[:filename] == nil) then
-      item[:filename] = "content" + item.identifier
-    end
-  end
+  preprocess_fix_items(@items)
 
   #TODO
   @items.each do |item|
@@ -47,14 +36,24 @@ preprocess do
   end
 
   # build json pages
+
+  arhivaItem = @items['/arhiva/index.md']
+  arhivaMTime = File.mtime(arhivaItem[:filename])
+
   $data.each do |id, td|
     if id.include? "-"
-      @items.create(
+      item = @items.create(
         "no content",
         {:title => "#{td["title"]}", :layout => "/json.html", :id => "#{id}"},
         "/#{id}/index.md",
         :binary => false
       )
+
+      # dependency management
+      if File.mtime(td[":filename"]) > arhivaMTime
+        FileUtils.touch(arhivaItem[:filename])
+      end
+
     end
   end
 
