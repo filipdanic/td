@@ -8,3 +8,8 @@ Sve je to spretno i umešno spremila **Jovana**.
 **Dragana** je spremila dizajn i escajg.
 
 Zajedno smo vam poslužili doručak uz tehnologiju. Prijatno!
+
+![](/gfx/partneri/domace-kiflice.jpg)
+![](/gfx/partneri/nescafe.jpg)
+![](/gfx/partneri/parobrod.png)
+{: .partneri}

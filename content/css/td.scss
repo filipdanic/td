@@ -134,7 +134,6 @@ header {
 	}
 }
 
-
 .items {
 	overflow: auto;
   	zoom: 1;
@@ -246,6 +245,7 @@ header {
 		}
 	}
 }
+
 #page {
 	padding: 40px 25% 80px 25%;
 	p {
@@ -256,6 +256,12 @@ header {
 	}
 	overflow: auto;
   	zoom: 1;
+
+  	.partneri {
+  		background-color: #fff;
+  		text-align: center;
+  		margin-top: 100px;
+  	}
 }
 
 .btn-close {
