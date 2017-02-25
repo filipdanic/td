@@ -7,7 +7,11 @@ preprocess do
 
   preprocess_fix_items(@items)
 
-  #TODO
+  # Assume all items inside /blog are blog articles unless otherwise specified
+  items.select { |item| item.identifier.to_s.start_with?("/blog/") }.each do |item|
+    item[:kind] ||= 'article'
+  end
+
   @items.each do |item|
     collect_yaml_files(item)
   end
