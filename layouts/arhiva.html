@@ -4,7 +4,7 @@
 	<%= render '/_header.html', :title => 'Default title'%>
 	<%= meta_tag :keywords %>
 </head>
-<body>
+<body class="alt">
 <%= render '/_menu.html' %>
 
 <%
@@ -20,7 +20,7 @@
 	keys = keys.sort.reverse
 %>
 
-	<header class="alt">
+	<header>
 	<h1><%= val(:title) || title %></h1>
 	</header>
 
