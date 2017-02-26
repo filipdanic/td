@@ -5,10 +5,10 @@
 	<%= meta_tag :keywords %>
 	<link rel="stylesheet" type="text/css" href="/css/tdjson.css">
 </head>
-<body class="dots">
+<body class="alt">
 <%= render '/_menu.html' %>
 <% td = $data[val(:id)] %>
-	<header class="alt">
+	<header>
 	<h1><%= val(:title) || title %></h1>
 	</header>
 
@@ -20,7 +20,7 @@
 
 		<div style="padding: 10px;">&nbsp;</div>
 
-		<span class="shout"><%= h(td['subtitle']) %></span>
+		<%= h(td['subtitle']) %>
 		<%= h(td['abstract']) %>
 
 		<div style="text-align: right; margin-top: 80px;">

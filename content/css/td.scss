@@ -50,14 +50,14 @@ h2 { font-size: 2.3125em;} 	// 37 ÷ 16 = 2.3125
 h3 { font-size: 1.75em; } 	// 28 ÷ 16 = 1.75
 
 #menu {
-	background-color: #fff;
-	padding: 2px 0 0 20px;
+	background-color: $h1-color;
+	padding: 6px 0 0 20px;
 	position: absolute;
 
 	li {
 		float: left;
 		text-align: center;
-		padding: 0 10px;
+		padding: 0 14px 0 0;
 		display: block;
 		a {
 			font-size: 1.1em;
@@ -75,8 +75,8 @@ h3 { font-size: 1.75em; } 	// 28 ÷ 16 = 1.75
   		}
 	}
 }
-header.alt {
-	h1 {
+.alt {
+	h1, #menu {
 		background-color: $h2-color;
 	}
 }
@@ -86,7 +86,7 @@ header {
 	text-align: center;
 	h1 {
 		background-color: $h1-color;
-		padding: 26px 0 20px 0;
+		padding: 30px 0 26px 0;
 	}
 	h2 {
 		background-color: $h2-color;
@@ -117,6 +117,7 @@ header {
 .items {
 	overflow: auto;
   	zoom: 1;
+  	padding: 0 10px;
   	.column {
 		width: 25%;
 		float: left;
