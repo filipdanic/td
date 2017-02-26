@@ -12,6 +12,8 @@ sa ciljem prikupljanja komentara, nalaženja istomišljenjika, razmene znanja iz
 predstavljene oblasti, a opciono i nalaženje partnera za dalju realizaciju.
 To znači da pozivamo ljude da pokažu ono na čemu rade, a zatim da zajedno diskutujemo o tome.
 
+<div style="text-align: center;"><img src="/gfx/td256.png"></div>
+
 Ako imaš interesantnu ideju koju želiš da predstaviš, javi se na [dorucak@heapspace.rs](mailto:dorucak@heapspace.rs).
 
 <a href="https://heapspace.typeform.com/to/RXjEVf" class="button" target="_blank" style="width:50%;margin:auto;margin-top:50px;">Prijavite vaš projekat!</a>
