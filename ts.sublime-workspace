@@ -4,8 +4,60 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"auto"
+			],
+			[
+				"backgo",
+				"background-image"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
 				"mar",
 				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"h1",
+				"h1-color"
+			],
+			[
+				"h2",
+				"h2-color"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"colo",
+				"color-backy"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"di",
+				"display"
 			],
 			[
 				"ex",
@@ -18,10 +70,6 @@
 			[
 				"padd",
 				"padding-right"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"color",
@@ -68,16 +116,8 @@
 				"bottom"
 			],
 			[
-				"c",
-				"small-caps"
-			],
-			[
 				"wid",
 				"width"
-			],
-			[
-				"margin-",
-				"margin-left"
 			],
 			[
 				"font",
@@ -86,10 +126,6 @@
 			[
 				"marg",
 				"margin-bottom"
-			],
-			[
-				"ma",
-				"margin-left"
 			],
 			[
 				"margi",
@@ -175,15 +211,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "content/css/td.scss",
-			"settings":
-			{
-				"buffer_size": 5092,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -308,20 +335,89 @@
 	[
 		"/Users/igor/prj/heapspace/td",
 		"/Users/igor/prj/heapspace/td/content",
-		"/Users/igor/prj/heapspace/td/content/arhiva",
 		"/Users/igor/prj/heapspace/td/content/css",
-		"/Users/igor/prj/heapspace/td/content/json",
+		"/Users/igor/prj/heapspace/td/content/o_dorucku",
+		"/Users/igor/prj/heapspace/td/content/tim",
 		"/Users/igor/prj/heapspace/td/etc",
 		"/Users/igor/prj/heapspace/td/layouts",
 		"/Users/igor/prj/heapspace/td/lib"
 	],
 	"file_history":
 	[
-		"/Users/igor/prj/heapspace/td/content/json/9-3.json",
-		"/Users/igor/prj/heapspace/td/layouts/arhiva.html",
+		"/Users/igor/prj/heapspace/td/layouts/_breakfast_logo.html",
+		"/Users/igor/prj/heapspace/td/layouts/_breakfast_bar.html",
+		"/Users/igor/prj/heapspace/td/layouts/index.html",
 		"/Users/igor/prj/heapspace/td/content/css/td.scss",
-		"/Users/igor/prj/heapspace/td/content/json/9-4.json",
+		"/Users/igor/prj/heapspace/td/content/o_dorucku/index.md",
+		"/Users/igor/prj/heapspace/td/layouts/_header.html",
+		"/Users/igor/prj/heapspace/td/.sass-cache/07d860c3a7bf7c4f824dd8dcb7aa3b4acf79cc9c/td.scssc",
+		"/Users/igor/prj/heapspace/td/layouts/json.html",
+		"/Users/igor/prj/heapspace/td/layouts/_menu.html",
+		"/Users/igor/prj/heapspace/td/layouts/arhiva.html",
+		"/Users/igor/prj/heapspace/td/content/tim/index.md",
+		"/Users/igor/prj/heapspace/td/layouts/default.html",
+		"/Users/igor/prj/heapspace/td/content/o_dorucku/kontakt.md",
+		"/Users/igor/prj/heapspace/td/content/json/4-3.json",
+		"/Users/igor/prj/heapspace/td/content/json/3-1.json",
+		"/Users/igor/prj/heapspace/td/lib/random_image.rb",
+		"/Users/igor/prj/heapspace/td/layouts/_item.html",
+		"/Users/igor/prj/heapspace/td/layouts/_footer.html",
+		"/Users/igor/prj/heapspace/td/Rules",
+		"/Users/igor/prj/heapspace/td/content/json/10-1.json",
+		"/Users/igor/prj/wedeploy/swagger/swagger-full.yaml",
+		"/Users/igor/prj/wedeploy/swagger/docker-java-swagger/swagger.yaml",
+		"/Users/igor/prj/wedeploy/swagger/generate.sh",
+		"/Users/igor/prj/wedeploy/swagger/swagger.yaml",
+		"/Volumes/Public/Movies/__NEW/Allied/Allied.2016.BRRip.XviD.AC3-EVO.srt",
+		"/Users/igor/prj/web/nanoc4/README.md",
+		"/Users/igor/prj/heapspace/td/content/index.md",
+		"/Users/igor/prj/web/nanoc4/content/index.md",
+		"/Users/igor/prj/web/nanoc4/Rules",
+		"/Users/igor/prj/heapspace/td/lib/jsondata.rb",
+		"/Users/igor/prj/web/nanoc4/lib/jsondata.rb",
 		"/Users/igor/prj/heapspace/td/content/arhiva/index.md",
+		"/Users/igor/prj/heapspace/td/lib/preprocess_fix.rb",
+		"/Users/igor/prj/web/nanoc4/content/write/index.md",
+		"/Users/igor/prj/web/nanoc4/content/write/cupid.yaml",
+		"/Users/igor/prj/web/nanoc4/content/json/j1.json",
+		"/Users/igor/prj/heapspace/td/content/about/index.md",
+		"/Users/igor/prj/heapspace/td/lib/folder_metadata.rb",
+		"/Users/igor/prj/web/nanoc4/lib/preprocess_fix.rb",
+		"/Users/igor/prj/web/nanoc4/content/blog/hello/index.md",
+		"/Users/igor/prj/web/nanoc4/content/blog/hello-again/index.md",
+		"/Users/igor/prj/web/nanoc4/content/blog/index.erb",
+		"/Users/igor/prj/heapspace/td/lib/items.rb",
+		"/Users/igor/prj/web/nanoc4/content/write/story_one.md",
+		"/Users/igor/prj/web/nanoc4/content/write/story_two/index.md",
+		"/Users/igor/prj/heapspace/td/content/json/10-4.json",
+		"/Users/igor/prj/web/nanoc4/Guardfile",
+		"/Users/igor/prj/web/nanoc4/Gemfile",
+		"/Users/igor/prj/heapspace/td/content/json/1-1.json",
+		"/Users/igor/prj/heapspace/td/content/json/1-2.json",
+		"/Users/igor/prj/heapspace/td/content/json/2-1.json",
+		"/Users/igor/prj/heapspace/td/content/json/6-4.json",
+		"/Users/igor/prj/heapspace/td/content/json/6-2.json",
+		"/Users/igor/prj/heapspace/td/content/json/3-4.json",
+		"/Users/igor/prj/heapspace/td/content/json/3-3.json",
+		"/Users/igor/prj/heapspace/td/content/json/3-2.json",
+		"/Users/igor/prj/heapspace/td/content/json/2-2.json",
+		"/Users/igor/prj/heapspace/td/content/json/2-3.json",
+		"/Users/igor/prj/heapspace/td/content/json/10-2.json",
+		"/Users/igor/prj/heapspace/td/content/json/9-4.json",
+		"/Users/igor/prj/heapspace/td/content/json/10-3.json",
+		"/Users/igor/prj/heapspace/td/Guardfile",
+		"/Users/igor/prj/heapspace/td/content/about/tim.md",
+		"/Users/igor/prj/heapspace/td/content/about/kontakt.md",
+		"/Users/igor/prj/heapspace/td/content/css/tdjson.scss",
+		"/Users/igor/prj/heapspace/td/content/json/4-1.json",
+		"/Users/igor/prj/heapspace/td/content/json/4-2.json",
+		"/Users/igor/prj/heapspace/td/content/json/5-3.json",
+		"/Users/igor/prj/heapspace/td/content/json/5-4.json",
+		"/Users/igor/prj/heapspace/td/content/json/1.json",
+		"/Users/igor/prj/heapspace/td/layouts/json.erb",
+		"/Users/igor/prj/heapspace/td/layouts/tag.erb",
+		"/Users/igor/prj/heapspace/td/output/10-1.html",
+		"/Users/igor/prj/heapspace/td/content/json/9-3.json",
 		"/Users/igor/prj/heapspace/td/content/json/6.json",
 		"/Users/igor/prj/heapspace/td/content/json/6-1.json",
 		"/Users/igor/prj/heapspace/td/content/json/7-2.json",
@@ -337,34 +433,14 @@
 		"/Users/igor/prj/heapspace/td/content/json/9-2.json",
 		"/Users/igor/prj/heapspace/td/content/json/td.json",
 		"/Users/igor/prj/heapspace/td/content/json/6-3.json",
-		"/Users/igor/prj/heapspace/td/content/json/6-2.json",
-		"/Users/igor/prj/heapspace/td/content/json/6-4.json",
-		"/Users/igor/prj/wedeploy/swagger/swagger.yaml",
 		"/Users/igor/Dropbox/Private/firma/invoice/2017-01/IMA-GRESKU-U-DATUMU.txt",
 		"/Users/igor/prj/heapspace/td/content/json/4.json",
-		"/Users/igor/prj/heapspace/td/content/json/4-1.json",
 		"/Users/igor/prj/heapspace/td/content/json/5.json",
 		"/Users/igor/prj/heapspace/td/content/json/5-2.json",
-		"/Users/igor/prj/heapspace/td/content/json/5-3.json",
-		"/Users/igor/prj/heapspace/td/content/json/5-4.json",
 		"/Users/igor/prj/heapspace/td/content/json/5-1.json",
 		"/Users/igor/prj/heapspace/td/content/json/3.json",
 		"/Users/igor/prj/heapspace/td/content/json/4-4.json",
-		"/Users/igor/prj/heapspace/td/content/json/4-3.json",
-		"/Users/igor/prj/heapspace/td/content/json/4-2.json",
-		"/Users/igor/prj/heapspace/td/content/json/3-1.json",
-		"/Users/igor/prj/heapspace/td/content/json/1.json",
-		"/Users/igor/prj/heapspace/td/layouts/_menu.html",
-		"/Users/igor/prj/heapspace/td/content/json/1-1.json",
-		"/Users/igor/prj/heapspace/td/content/json/3-4.json",
-		"/Users/igor/prj/heapspace/td/content/json/3-3.json",
 		"/Users/igor/prj/heapspace/td/content/json/2.json",
-		"/Users/igor/prj/heapspace/td/content/json/2-1.json",
-		"/Users/igor/prj/heapspace/td/content/json/2-2.json",
-		"/Users/igor/prj/heapspace/td/content/json/2-3.json",
-		"/Users/igor/prj/heapspace/td/content/json/3-2.json",
-		"/Users/igor/prj/heapspace/td/content/json/1-2.json",
-		"/Users/igor/prj/heapspace/td/content/json/10-1.json",
 		"/Users/igor/prj/heapspace/td/content/json/10.json",
 		"/Users/igor/bin/gh.sh",
 		"/Users/igor/prj/wedeploy/images2/swarm/README.md",
@@ -395,56 +471,7 @@
 		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/class-loading-in-jodd.md",
 		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/2+actions.md",
 		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/_social.html",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/README.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/toc_filter.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/todo.txt",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/sitemap.haml",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/Gemfile",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/helpers.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/Rules",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/.gitignore",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/release.zsh",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/static/.sync-filter.txt",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/static/.sync-exclude.txt",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/sitemap",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/default.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/replace_filter.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/jodd_macros.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/_docs.html",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/2+container.md",
-		"/Users/igor/Dropbox/Private/work/doc/websphere.txt",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/jodd_docs.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/default.html",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/macros.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/javadoc_filter.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/db/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/jerry/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/json/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/jtx/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/lagarto/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/paramo/index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/petite/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/proxetta/1+index.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/output/doc/db/+index.html",
-		"/Users/igor/Dropbox/Private/work/doc/vpn.txt",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/beta.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/love.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/release.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/printf.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/_head.html",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/lib/jodd.rb",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/jodd.html",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/14+miscellaneous.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/8+injection.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/5+results-more.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/3+actions-more.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/13+integration.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/17+prepare-objects-before-update.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/12+routing.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/output/doc/example/tx-over-actions.html",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/example/10+tx-over-actions.md"
+		"/Users/igor/prj/oblac/jodd-site-nanoc/README.md"
 	],
 	"find":
 	{
@@ -470,6 +497,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n$",
+			"media",
+			"\">\n",
+			"png",
+			"\">\n",
+			"333",
+			"page",
+			"backy-co",
+			"backgrou",
+			"/path",
+			"paths",
+			"/nodes",
+			"#666",
+			"backy",
+			"name",
+			"collection",
 			"/node",
 			"proxy",
 			"font",
@@ -581,23 +624,7 @@
 			"        .",
 			"\n+",
 			"0",
-			"macros",
-			"$color-orange1",
-			"ecdcc4",
-			"button",
-			"circle",
-			"');\n",
-			"result t",
-			"result type",
-			"li",
-			"ul",
-			"ex",
-			"ex1",
-			"echo",
-			"\t- ",
-			"CHANGED\n: *Props* macros are now resolved dynamically, on fetch.\n",
-			"\t\t\t\t<div class=\"badge br1\">\n\t\t\t\t\t<a href=\"/doc/json/\" class=\"circle bg-col3\">S</a>\n\t\t\t\t\t<div class=\"desc\">\n\t\t\t\t\t\t<span>Json</span> - super tool for parsing JSON to objects and serializing objects back to JSON.\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n",
-			"\t\t\t\t<div class=\"badge br1\">\n\t\t\t\t\t<a href=\"/doc/decora/\" class=\"hexagon\">C</a>\n\t\t\t\t\t<div class=\"desc\">\n\t\t\t\t\t\t<span>Decora</span> - powerful decoration framework for web pages based on templates.\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n"
+			"macros"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -605,6 +632,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$dots-color",
 			"\\[#jodd-",
 			"\\#jodd-",
 			"## \\[",
@@ -634,490 +662,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "content/css/td.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5092,
-						"regions":
-						{
-							"gutter_color_113":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#EC3522.png",
-								"regions":
-								[
-									[
-										113,
-										135
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1166":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1166,
-										1192
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1228":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f4ece1.png",
-								"regions":
-								[
-									[
-										1228,
-										1256
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_136":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#eee.png",
-								"regions":
-								[
-									[
-										136,
-										159
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1887":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#666.png",
-								"regions":
-								[
-									[
-										1887,
-										1914
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1915":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										1915,
-										1983
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2182":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#666.png",
-								"regions":
-								[
-									[
-										2182,
-										2209
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2238":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										2238,
-										2264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2454":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#333.png",
-								"regions":
-								[
-									[
-										2454,
-										2478
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2479":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ccc.png",
-								"regions":
-								[
-									[
-										2479,
-										2548
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2913":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2913,
-										2926
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2927":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2927,
-										2951
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3005":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3005,
-										3038
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3040":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/rgba(0,0,0,0.5).png",
-								"regions":
-								[
-									[
-										3040,
-										3079
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3111":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#eee.png",
-								"regions":
-								[
-									[
-										3111,
-										3135
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3826":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#666.png",
-								"regions":
-								[
-									[
-										3826,
-										3851
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3852":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										3852,
-										3918
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3989":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fafafa.png",
-								"regions":
-								[
-									[
-										3989,
-										4016
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4054":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										4054,
-										4079
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4080":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#666.png",
-								"regions":
-								[
-									[
-										4080,
-										4105
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4205":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#aaa.png",
-								"regions":
-								[
-									[
-										4205,
-										4222
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4462":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#555.png",
-								"regions":
-								[
-									[
-										4462,
-										4477
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4528":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										4528,
-										4591
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4592":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										4592,
-										4616
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4798":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ddd.png",
-								"regions":
-								[
-									[
-										4798,
-										4846
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_4847":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ddd.png",
-								"regions":
-								[
-									[
-										4847,
-										4899
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_5036":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f0f0f0.png",
-								"regions":
-								[
-									[
-										5036,
-										5062
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_819":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fafafa.png",
-								"regions":
-								[
-									[
-										819,
-										846
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_91":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#333.png",
-								"regions":
-								[
-									[
-										91,
-										112
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 399.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1168,7 +714,7 @@
 	"project": "ts.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1178,12 +724,128 @@
 		"selected_items":
 		[
 			[
+				"index.",
+				"layouts/index.html"
+			],
+			[
+				"td.sc",
+				".sass-cache/07d860c3a7bf7c4f824dd8dcb7aa3b4acf79cc9c/td.scssc"
+			],
+			[
+				"json",
+				"layouts/json.html"
+			],
+			[
 				"ar",
 				"layouts/arhiva.html"
 			],
 			[
+				"json.",
+				"layouts/json.html"
+			],
+			[
+				"4-3",
+				"content/json/4-3.json"
+			],
+			[
+				"3-1",
+				"content/json/3-1.json"
+			],
+			[
+				"foot",
+				"layouts/_footer.html"
+			],
+			[
+				"10-1",
+				"content/json/10-1.json"
+			],
+			[
+				"arhiv",
+				"content/arhiva/index.md"
+			],
+			[
+				"10-4",
+				"content/json/10-4.json"
+			],
+			[
+				"rul",
+				"Rules"
+			],
+			[
+				"1-1",
+				"content/json/1-1.json"
+			],
+			[
+				"1-2",
+				"content/json/1-2.json"
+			],
+			[
+				"2-1",
+				"content/json/2-1.json"
+			],
+			[
+				"2-2",
+				"content/json/2-2.json"
+			],
+			[
+				"2-3",
+				"content/json/2-3.json"
+			],
+			[
+				"3-2",
+				"content/json/3-2.json"
+			],
+			[
+				"3-3",
+				"content/json/3-3.json"
+			],
+			[
+				"3-4",
+				"content/json/3-4.json"
+			],
+			[
+				"6-2",
+				"content/json/6-2.json"
+			],
+			[
+				"6-4",
+				"content/json/6-4.json"
+			],
+			[
+				"9-4",
+				"content/json/9-4.json"
+			],
+			[
+				"10-3",
+				"content/json/10-3.json"
+			],
+			[
+				"10-2",
+				"content/json/10-2.json"
+			],
+			[
 				"arhi",
 				"content/arhiva/index.md"
+			],
+			[
+				"5-4",
+				"content/json/5-4.json"
+			],
+			[
+				"5-3",
+				"content/json/5-3.json"
+			],
+			[
+				"4-2",
+				"content/json/4-2.json"
+			],
+			[
+				"4-1",
+				"content/json/4-1.json"
+			],
+			[
+				"1.",
+				"content/json/1.json"
 			],
 			[
 				"jodd",

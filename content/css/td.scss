@@ -1,7 +1,12 @@
 @import "_reset";
-@import "_fonts";
 
-$font-stack: 'NeuzeitGro-Lig', Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Roboto:300,600');
+
+$font-serif: 'Libre Baskerville', serif;
+$font-stack: 'Roboto', Helvetica, sans-serif;
+///$font-serif: 'Playfair Display', serif;
+//$font-stack: 'NeuzeitGro-Lig', Helvetica, sans-serif;
+
 $primary-color: #2E2A28;
 $focus-color: #ff5040;
 $focus-color-alt: #fff;
@@ -19,13 +24,6 @@ $break3: 640px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
-a {
-	text-decoration: none;
-	color: $focus-color;
-	&:hover {
-		color: $primary-color;
-	}
 }
 html, body  {
 	//height: 100%;
@@ -49,6 +47,16 @@ html {
 h1 { font-size: 3.125em; } 	// 50 ÷ 16 = 3.125
 h2 { font-size: 2.3125em;} 	// 37 ÷ 16 = 2.3125
 h3 { font-size: 1.75em; } 	// 28 ÷ 16 = 1.75
+a {
+	text-decoration: none;
+	color: $focus-color;
+	&:hover {
+		color: $primary-color;
+	}
+}
+strong {
+	font-weight: bold;
+}
 
 #menu {
 	background-color: $h1-color;
@@ -123,6 +131,9 @@ header {
 	overflow: auto;
   	zoom: 1;
   	padding: 0 10px;
+  	@media (max-width: $break2) {
+    	padding: 0 10px 60px 10px;
+  	}
   	.column {
 		width: 25%;
 		float: left;
@@ -147,12 +158,13 @@ header {
 			box-shadow: 0 0 0 4px #fff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 			padding: 30px 20px;
 			text-align: center;
-			font-family: 'Sabon-RomanOsF';
+			font-family: $font-serif;
 			transition: 0.5s;
 			-webkit-transition:0.5s;
 
 			p {
 				font-size: 1.4em;
+				font-family: $font-serif;
 			}
 			color: $primary-color;
 			&:hover {
@@ -164,7 +176,7 @@ header {
   				-webkit-transition: 0s;
   			}
 			h1 {
-				font-family: 'Sabon-RomanOsF';
+				font-family: $font-serif;
 				font-weight: bold;
 			}
 			hr {
@@ -177,7 +189,8 @@ header {
     			margin-bottom: 30px;
 			}
 			h2 {
-				font-family: 'SabonLTStd-Italic';
+				font-family: $font-serif;
+				font-style: italic;
 				margin-bottom: 30px;
 			}
 
@@ -316,7 +329,7 @@ header {
     	text-align: center;
 	}
 	.h1 {
-		font-family: 'Sabon-RomanOsF';
+		font-family: $font-serif;
 		margin-bottom: 10px;
 		span.title {
 			font-size: 1.2em;
@@ -351,16 +364,6 @@ footer {
 	width: 440px;
 	left: 50%;
     margin-left: -220px;
-}
-
-.pattern {
-	background:
-	radial-gradient(#ddd 15%, transparent 16%) 0 0,
-	radial-gradient(#ddd 15%, transparent 16%) 8px 8px,
-	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-	background-color:#f0f0f0;
-	background-size:16px 16px;
 }
 
 .shout {
