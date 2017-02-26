@@ -12,8 +12,9 @@ foto-aparatom. **Igor** meša napitke da sajt ispadne lep.
 
 Zajedno smo vam poslužili doručak uz tehnologiju. Prijatno!
 
-![](/gfx/partneri/domace-kiflice.jpg)
-![](/gfx/partneri/nescafe.jpg)
-![](/gfx/partneri/parobrod.png)
-![](https://www.netlify.com/img/global/badges/netlify-light.svg)
-{: .partneri}
+<div class="partneri">
+<a href="http://www.domacekiflice.rs" target="_blank"><img src="/gfx/partneri/domace-kiflice.jpg"></a>
+<a href="http://www.nescafe.rs" target="_blank"><img src="/gfx/partneri/nescafe.jpg"></a>
+<a href="http://www.ukparobrod.rs" target="_blank"><img src="/gfx/partneri/parobrod.png"></a>
+<a href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-light.svg"></a>
+</div>

@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"font-s",
+				"font-serif"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-serif"
+			],
+			[
 				"a",
 				"auto"
 			],
@@ -18,10 +38,6 @@
 			[
 				"mar",
 				"margin-bottom"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"h1",
@@ -62,10 +78,6 @@
 			[
 				"ex",
 				"extend"
-			],
-			[
-				"font-s",
-				"font-size"
 			],
 			[
 				"padd",
@@ -118,10 +130,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"marg",
@@ -334,27 +342,23 @@
 	"expanded_folders":
 	[
 		"/Users/igor/prj/heapspace/td",
-		"/Users/igor/prj/heapspace/td/content",
-		"/Users/igor/prj/heapspace/td/content/css",
-		"/Users/igor/prj/heapspace/td/content/o_dorucku",
-		"/Users/igor/prj/heapspace/td/content/tim",
-		"/Users/igor/prj/heapspace/td/etc",
-		"/Users/igor/prj/heapspace/td/layouts",
-		"/Users/igor/prj/heapspace/td/lib"
+		"/Users/igor/prj/heapspace/td/etc"
 	],
 	"file_history":
 	[
+		"/Users/igor/prj/heapspace/td/content/css/td.scss",
+		"/Users/igor/prj/heapspace/td/etc/kako-se-pravi-fotka.md",
+		"/Users/igor/prj/heapspace/td/content/tim/index.md",
+		"/Users/igor/prj/heapspace/td/content/css/_fonts.scss",
 		"/Users/igor/prj/heapspace/td/layouts/_breakfast_logo.html",
 		"/Users/igor/prj/heapspace/td/layouts/_breakfast_bar.html",
 		"/Users/igor/prj/heapspace/td/layouts/index.html",
-		"/Users/igor/prj/heapspace/td/content/css/td.scss",
 		"/Users/igor/prj/heapspace/td/content/o_dorucku/index.md",
 		"/Users/igor/prj/heapspace/td/layouts/_header.html",
 		"/Users/igor/prj/heapspace/td/.sass-cache/07d860c3a7bf7c4f824dd8dcb7aa3b4acf79cc9c/td.scssc",
 		"/Users/igor/prj/heapspace/td/layouts/json.html",
 		"/Users/igor/prj/heapspace/td/layouts/_menu.html",
 		"/Users/igor/prj/heapspace/td/layouts/arhiva.html",
-		"/Users/igor/prj/heapspace/td/content/tim/index.md",
 		"/Users/igor/prj/heapspace/td/layouts/default.html",
 		"/Users/igor/prj/heapspace/td/content/o_dorucku/kontakt.md",
 		"/Users/igor/prj/heapspace/td/content/json/4-3.json",
@@ -469,9 +473,7 @@
 		"/Users/igor/prj/oblac/jodd-site-nanoc/content/download/index.md",
 		"/Users/igor/prj/oblac/jodd-site-nanoc/content/license.md",
 		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/class-loading-in-jodd.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/2+actions.md",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/layouts/_social.html",
-		"/Users/igor/prj/oblac/jodd-site-nanoc/README.md"
+		"/Users/igor/prj/oblac/jodd-site-nanoc/content/doc/madvoc/2+actions.md"
 	],
 	"find":
 	{
@@ -497,6 +499,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bold",
+			"Neuz",
+			"bold",
+			"ROman",
 			"\n$",
 			"media",
 			"\">\n",
@@ -620,11 +626,7 @@
 			"httpRequestHandler",
 			"sending em",
 			"Imap",
-			"adr2",
-			"        .",
-			"\n+",
-			"0",
-			"macros"
+			"adr2"
 		],
 		"highlight": true,
 		"in_selection": false,
