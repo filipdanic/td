@@ -7,7 +7,7 @@
 
 </script>
 </head>
-<body class="dots">
+<body>
 <%= render '/_menu.html' %>
 <% no = $data["td"]["active"] %>
 <% td = $data[no.to_s] %>
@@ -24,6 +24,8 @@
   <%= render '/_item.html', :id => '10-4' %>
 </div>
 
+
+<%= render '/_breakfast_bar.html' %>
 <%= render '/_footer.html' %>
 
 </body>

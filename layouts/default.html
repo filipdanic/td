@@ -4,10 +4,10 @@
 	<%= render '/_header.html', :title => 'Default title'%>
 	<%= meta_tag :keywords %>
 </head>
-<body class="dots">
+<body>
 <%= render '/_menu.html' %>
 
-	<header>
+	<header class="alt">
 	<h1><%= val(:title) || title %></h1>
 	</header>
 
@@ -16,7 +16,7 @@
 		<%= yield %>
 		</div>
 	</div>
-
+<%= render '/_breakfast_bar.html' %>
 	<%= render '/_footer.html'%>
 </body>
 </html>
