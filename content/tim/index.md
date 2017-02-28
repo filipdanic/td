@@ -2,13 +2,13 @@
 title: "Naš tim"
 ---
 
-Namirnice za doručak je pažljivo odabira **Miloš**.
-Sve to spretno i umešno sprema i kuva **Jovana**.
+Namirnice za doručak pažljivo odabira **Miloš**.
+Sve to spretno i umešno spravlja **Jovana**.
 **Dimitrije** nadgleda budno da li svega ima koliko treba.
 
 **Vesna**, **Ana** i **Kaća** vas jutrom dočekuju
-sjajnim osmehom i nalepnicama. **Marija** beleži lepe uspomene
-foto-aparatom. **Igor** meša napitke da sajt ispadne lep.
+sjajnim osmehom i nalepnicama. **Marija** beleži divne uspomene
+foto-aparatom. **Igor** gleda da sajt bude sladak.
 
 Zajedno smo vam poslužili doručak uz tehnologiju. Prijatno!
 
@@ -18,3 +18,5 @@ Zajedno smo vam poslužili doručak uz tehnologiju. Prijatno!
 <a href="http://www.ukparobrod.rs" target="_blank"><img src="/gfx/partneri/parobrod.png"></a>
 <a href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-light.svg"></a>
 </div>
+
+Javi nam se na: [dorucak@heapspace.rs](mailto:dorucak@heapspace.rs).

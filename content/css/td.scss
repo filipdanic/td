@@ -17,7 +17,7 @@ $paper-color: #f0f0f0;
 $backy-color: #f0f0f0;
 
 $break1: 1800px;
-$break2: 1200px;
+$break2: 1300px;	// samo sada
 $break3: 640px;
 
 * {
@@ -135,7 +135,7 @@ header {
     	padding: 0 10px 60px 10px;
   	}
   	.column {
-		width: 25%;
+		width: 20%;
 		float: left;
 		overflow: hidden;
 		padding: 10px 10px;
@@ -143,7 +143,9 @@ header {
 		@media (max-width: $break2) {
     		width: 100%;
   		}
-
+  	}
+  	.double {
+  		width: 50%;
   	}
 	.item {
 		.speaker {
@@ -275,6 +277,7 @@ header {
   		background-color: #fff;
   		text-align: center;
   		margin-top: 100px;
+  		margin-bottom: 50px;
   	}
 
   	@media (max-width: $break2) {
@@ -391,4 +394,23 @@ a.button {
 	@media (max-width: $break2) {
     	display: none;
   	}
+}
+
+
+div#partneri {
+	text-align: center;
+	p {
+		font-size: 1.1em;
+	}
+	margin: 10px 0 60px 0;
+	h3 {
+		margin-bottom: 20px;
+	}
+}
+
+#announcement {
+	width:50%;
+	text-align:center;
+	font-size: 1.4em;
+	margin: 30px auto;
 }

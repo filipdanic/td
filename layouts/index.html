@@ -17,11 +17,24 @@
 <h3><a href="<%= td['eventUrl'] %>" target="_blank">Prijavi dolazak</a></h3>
 </header>
 
-<div class="items" style="z-index: 2;">
+<div id="announcement">
+Jubilarni 10. TD biće naročito ukusan! Torta iz <a href="http://mandarinacakeshop.rs/" target="_blank">Mandarine</a> vas čeka! Mljac!
+</div>
+
+<div class="items">
   <%= render '/_item.html', :id => '10-1' %>
   <%= render '/_item.html', :id => '10-2' %>
   <%= render '/_item.html', :id => '10-3' %>
   <%= render '/_item.html', :id => '10-4' %>
+  <%= render '/_item.html', :id => '10-5' %>
+</div>
+
+<div id="partneri">
+<h3>Tehnološki doručak pomažu:</h3>
+<p><a href="http://www.domacekiflice.rs" target="_blank">Domaće Kiflice</a> - ukusni slatki i slani zalogaji.</p>
+<p><a href="http://www.nescafe.rs" target="_blank">Nescafe</a> - toplo buđenje uz pravu kafu.</p>
+<p><a href="http://www.ukparobrod.rs" target="_blank">Parobrod</a> - ustanova kulture bez koje se ne može.</p>
+<p><a href="https://www.netlify.com" target="_blank">Netlify</a> - platforma za automatizaciju modernih web projekata</p>
 </div>
 
 <%= render '/_breakfast_bar.html' %>
