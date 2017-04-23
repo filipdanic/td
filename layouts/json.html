@@ -18,8 +18,11 @@
 		<a href="<%= td['url'] %>" target="_blank"><%= td['url'] %></a>
 		</div>
 
-		<div style="padding: 10px;">&nbsp;</div>
-
+		<% if td['video'] != nil %>
+			<div style="padding: 40px 0 40px 0; text-align: center;"><%= td['video'] %></div>
+		<% else %>
+			<div style="padding: 10px;">&nbsp;</div>
+		<% end %>
 		<%= h(td['subtitle']) %>
 		<%= h(td['abstract']) %>
 
