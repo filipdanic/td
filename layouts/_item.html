@@ -1,14 +1,18 @@
 <div class="item">
 	<div class="column">
   	<article class="box">
-  	<a href="/<%= id %>/">
-	  	<h1><%= h($data[id]["title"]) %></h1>
-	  	<hr>
-	  	<h2><%= h($data[id]["author"]) %></h2>
+		<a href="/<%= id %>/">
+			<h1><%= h($data[id]["title"]) %></h1>
+		</a>
+			<hr>
+		<a href="/<%= h($data[id]['author_url']) %>/">
+			<h2><%= h($data[id]["author"]) %></h2>
+		</a>
+		<a href="/<%= id %>/">
 	  	<p>
 	  		<%= h($data[id]["subtitle"]) %>
 	  	</p>
-	</a>
+		  </a>
 	</article>
 	</div>
 </div>
